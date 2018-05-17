@@ -1,0 +1,92 @@
+/**
+ * Inspired by http://strml.net/
+ *
+ * Hey. My name's LCL. I'm a Phper
+ *
+ * 现在来介绍一下自己
+ */
+
+/**
+ *  好的，我们开始吧，一切准备就绪！！
+ *  首先给所有元素加上过渡效果
+ */
+
+* {
+  -webkit-transition: all 1s;
+}
+
+/**
+ *
+ * 白色背景太单调了，我们来点背景！！！
+ */
+
+html {
+  background: rgb(63, 82, 99);
+}
+pre, a {
+  color: white;
+}
+
+/**
+ * 接下来我给自己准备一个编辑器....
+ *
+ */
+
+pre:not(:empty) {
+  overflow: auto;
+  background: rgb(48, 48, 48);
+  border: 1px solid #ccc;
+  max-height: 94.6%;
+  width: 48.5%;
+  font-size: 14px;
+  font-family: monospace;
+  padding: 10px 10px 20px;
+  box-shadow: -4px 4px 2px 0 rgba(0,0,0,0.3);
+  white-space: pre-wrap;
+  outline: 0;
+}
+
+/**
+ * Okay. 再来重新布局一下页面！！！
+ * 准备搞事情吧！！
+ */
+
+#style-text {
+  -webkit-transform: translateX(95%);
+  position: absolute;
+}
+
+/**
+ * 恩...让它美观一下。
+ */
+
+.comment       { color: #857F6B; font-style: italic; }
+.selector      { color: #E69F0F; }
+.selector .key { color: #64D5EA; }
+.key           { color: #64D5EA; }
+.value         { color: #BE84F2; }
+.value.px      { color: #F92772; }
+
+/**
+ * 再加点3D效果吧.....
+ */
+
+body {
+  -webkit-perspective: 1000px;
+}
+
+#style-text {
+  -webkit-transform: translateX(98.5%) rotateY(-10deg);
+  -webkit-transform-origin: right;
+  max-height: 94.5%;
+}
+
+pre:not(#style-text) {
+  -webkit-transform: rotateY(10deg);
+  -webkit-transform-origin: left;
+}
+/**
+ * 好！ 我开始写简历了。。。
+ */
+
+

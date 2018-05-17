@@ -1,0 +1,25 @@
+
+/**
+ * Markdown 格式看起来不是特别友好. 让我们来转换一下格式.
+ */
+
+#work-text.flipped {
+  -webkit-transform: rotateX(0deg) rotateY(190deg) rotateZ(180deg);
+}
+
+#work-text .md {
+  -webkit-transform: rotateY(190deg) rotateZ(180deg);
+  margin-top: 800px;
+}
+
+/**
+ * 好了. 倒计时准备.
+ *
+ * 3...
+ * 2...
+ * 1...
+ *
+ * Okay here we go!
+ *
+ */
+
